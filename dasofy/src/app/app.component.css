@@ -23,6 +23,14 @@ h4 {
   font-size: 32px;
 }
 
+input, textarea{
+  color: #231f20;
+  background: #ffea6d;
+  transition: .4s all ease;
+}
+
+/* Navbar */
+
 .ds-navbar{
   background-color: #231f20;
   padding-top: 0;
@@ -110,8 +118,25 @@ section.services{
 /* Contact */
 
 section.contact{
+  position: relative;
   min-height: calc(100vh - 90px);
-  background-color: lightgoldenrodyellow;
+  background-color: lightgreen;
+  overflow: hidden;
+}
+
+agm-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+section.contact .contact-form{
+  position: relative;
+  margin: 5% 5% 5% 33.33%;
+  padding: 5%;
+  background-color: #f2cf53;
 }
 
 /* Footer */
