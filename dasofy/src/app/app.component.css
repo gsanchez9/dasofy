@@ -24,8 +24,18 @@ h1, h2, h3, h4{
 .navbar-nav a.nav-link{
   font-weight: bold;
   color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .navbar-nav a.nav-link:hover{
   color: #ffea6d;
+}
+
+/* Home */
+
+section.home aside{
+  border: 25px solid black;
+  margin-top: 0 auto;
+  font-size: 26px;
 }
