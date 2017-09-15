@@ -99,3 +99,24 @@ section.about {
   flex-basis: 33.33333%;
   max-width: 33.33333%;
 }
+
+/* Services */
+
+section.services{
+  min-height: calc(100vh - 90px);
+  background-color: lightgray;
+}
+
+/* Contact */
+
+section.contact{
+  min-height: calc(100vh - 90px);
+  background-color: lightgoldenrodyellow;
+}
+
+/* Footer */
+
+footer{
+  min-height: calc(50vh);
+  background-color: #231f20;
+}
