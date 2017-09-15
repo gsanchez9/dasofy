@@ -6,10 +6,28 @@ h1, h2, h3, h4{
   font-family: "Cuprum",sans-serif;
 }
 
+h2, h3{
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 60px;
+  color: #f2cf53;
+}
+
+h2 {
+  font-size: 52px;
+}
+
+h4 {
+  font-size: 32px;
+}
+
 .ds-navbar{
   background-color: #231f20;
   padding-top: 0;
   padding-bottom: 0;
+  box-shadow: 0 0 0 rgba(0,0,0,0.12),3px 4px 8px 0px rgba(0,0,0,0.11);
 }
 
 .navbar-brand{
@@ -32,10 +50,52 @@ h1, h2, h3, h4{
   color: #ffea6d;
 }
 
+.container-fluid{
+  padding: 0;
+}
+
 /* Home */
 
+section.home{
+  background-image: url("../assets/home.jpg");
+  background-size: cover;
+  min-height: calc(100vh - 90px);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin-top: 90px;
+}
+
 section.home aside{
-  border: 25px solid black;
-  margin-top: 0 auto;
+  border: 15px solid #fff;
   font-size: 26px;
+  margin: 5% 5% 5% 33.33%;
+  padding: 5%;
+}
+
+section.home aside p {
+  font-size: 26px;
+  color: white;
+}
+
+/* About */
+
+section.about {
+  min-height: calc(100vh - 90px);
+  background-image: url("../assets/about.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #f2cf53;
+  margin: 1%;
+  padding: 5%;
+}
+
+.flex-item {
+  min-width: 250px;
+  margin: 5%;
+  flex-basis: 33.33333%;
+  max-width: 33.33333%;
 }
